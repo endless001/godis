@@ -9,7 +9,7 @@ import (
 	"os"
 )
 
-const configFile string = "../godis.conf"
+const configFile string = "godis.conf"
 
 var defaultProperties = &config.ServerProperties{
 	Bind: "0.0.0.0",
